@@ -21,29 +21,33 @@
   <main>
 
     <form id = "contactusform">
+      <div class="names" id="form-name">
+          <!-- <label for="firstName">First Name:</label> -->
         <fieldset>
-          <label for="firstName">First Name:</label>
-          <input id="firstName" type= "text">
+          <input id="firstName" type= "text" placeholder="First Name">
+        </fieldset>
+        <!-- </fieldset> -->
+
+        <!-- <fieldset> -->
+          <!-- <label for="lastName">Last Name:</label> -->
+        <fieldset>
+          <input id="lastName" type= "text" placeholder="Last Name">
+        </fieldset>
+      </div>
+
+        <fieldset>
+          <!-- <label for="email">Email:</label> -->
+          <input id="email" type= "email" placeholder="Email@url.com">
         </fieldset>
 
         <fieldset>
-          <label for="lastName">Last Name:</label>
-          <input id="lastName" type= "text">
+          <!-- <label for="contactNumber">Contact Number:</label> -->
+          <input id="contactNumber" type= "tel" placeholder="Contact Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
         </fieldset>
 
         <fieldset>
-          <label for="email">Email:</label>
-          <input id="email" type= "email">
-        </fieldset>
-
-        <fieldset>
-          <label for="contactNumber">Contact Number:</label>
-          <input id="contactNumber" type= "tel">
-        </fieldset>
-
-        <fieldset>
-          <label for="message">Message:</label>
-          <input id="message" type= "text">
+          <!-- <label for="message">Message:</label> -->
+          <input id="message" type= "text" placeholder="Message">
         </fieldset>
 
         <div class="buttons" id = "contact-Buttons">

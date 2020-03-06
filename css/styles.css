@@ -20,11 +20,17 @@ h1{
    align-items: center;
    justify-content: center;
 
+
  }
 
- .firstName{
-   border: 0px;
-   border-top-style: none;
+
+
+ .names{
+   display: flex;
+   flex-direction:column;
+   /* align-content: space-around;
+   justify-content: center;
+   flex: auto; */
  }
  form{
   display: flex;
@@ -68,11 +74,12 @@ nav a {
   background: #333;
   text-decoration: none;
   transition: all 1.5s;
+  font: verdana;
 }
 
 
 .buttons{
-  width: 60%;
+  max-width: 60%;
   display: flex;
   justify-content: center;
   /* justify-content: space-between; */
@@ -99,7 +106,7 @@ nav a {
   /* applies to screens wider than 499px */
 
   body {
-    background: white;
+    background: green;
   }
 
   .menu {
@@ -113,6 +120,13 @@ nav a {
   nav a:hover {
     color: #dfd;
     background: #797;
+  }
+  .names{
+    display: flex;
+    flex-direction:row;
+    align-content: space-around;
+    justify-content: center;
+    flex: auto;
   }
 }
 
