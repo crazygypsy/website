@@ -9,46 +9,50 @@
 <body>
   <div class="menu" id="menu-toggle">MENU</div>
   <nav id = "menu-nav">
-      <a href="#">HOME</a>
+      <a href="index.html">HOME</a>
       <a href="#">ROSTER</a>
       <a href="#">EVENTS</a>
-      <a href="#">CONTACT US</a>
+      <a href="contactUs.html">CONTACT US</a>
     </nav>
   <h1>RFW</h1>
 
-  <form id = "contactusform">
-      <fieldset>
-        <label for="firstName">First Name:</label>
-        <input id="firstName" type= "text">
-      </fieldset>
+  <!-- <div class="CUForm" id="contact-form">Contact Us</div> -->
 
-      <fieldset>
-        <label for="lastName">Last Name:</label>
-        <input id="lastName" type= "text">
-      </fieldset>
+  <main>
 
-      <fieldset>
-        <label for="email">Email:</label>
-        <input id="email" type= "email">
-      </fieldset>
+    <form id = "contactusform">
+        <fieldset>
+          <label for="firstName">First Name:</label>
+          <input id="firstName" type= "text">
+        </fieldset>
 
-      <fieldset>
-        <label for="contactNumber">Contact Number:</label>
-        <input id="contactNumber" type= "tel">
-      </fieldset>
+        <fieldset>
+          <label for="lastName">Last Name:</label>
+          <input id="lastName" type= "text">
+        </fieldset>
 
-      <fieldset>
-        <label for="message">Message:</label>
-        <input id="message" type= "text">
-      </fieldset>
+        <fieldset>
+          <label for="email">Email:</label>
+          <input id="email" type= "email">
+        </fieldset>
 
-      <fieldset>
-        <input id="submitForm" type= "submit">
-        <input id="clearForm" type= "reset">
-      </fieldset>
+        <fieldset>
+          <label for="contactNumber">Contact Number:</label>
+          <input id="contactNumber" type= "tel">
+        </fieldset>
 
-  </form>
+        <fieldset>
+          <label for="message">Message:</label>
+          <input id="message" type= "text">
+        </fieldset>
 
+        <fieldset>
+          <input id="submitForm" type= "submit">
+          <input id="clearForm" type= "reset">
+        </fieldset>
+
+    </form>
+  </main>
 
 
   <script src="js/scripts.js"></script>
