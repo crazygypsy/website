@@ -28,7 +28,7 @@ h1{
  }
  form{
   display: flex;
-  align-self: center;
+  align-items: center;
   flex-direction: column;
   width: 60%;
  }
@@ -70,6 +70,16 @@ nav a {
   transition: all 1.5s;
 }
 
+
+.buttons{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  margin: auto;
+  flex-direction: row;
+  align-items: center;
+}
 .menu {
   background: #333;
   text-align: center;
@@ -89,7 +99,7 @@ nav a {
   /* applies to screens wider than 499px */
 
   body {
-    background: #cfc;
+    background: white;
   }
 
   .menu {
