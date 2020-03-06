@@ -5,7 +5,8 @@
 
 
 body {
-  background: #FFD700;
+  background: #fcc;
+  margin: 0;
  }
 
 h1{
@@ -19,6 +20,8 @@ h1{
    border-style:hidden;
    align-items: center;
    justify-content: center;
+   max-width: 60%
+
 
 
  }
@@ -36,7 +39,12 @@ h1{
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 60%;
+  /* justify-content: space-between; */
+  width: 85%;
+  box-sizing: border-box;
+  background: darkblue;
+  border-radius: 10px 10px 10px 10px;
+
  }
 
 fieldset{
@@ -44,6 +52,7 @@ fieldset{
   justify-content: center;
   flex: auto;
   border: 0px;
+  width: auto;
 }
 main{
   display: flex;
@@ -55,12 +64,11 @@ main{
   float: none;
   box-sizing: border-box;
  }
-
+/*
 body {
   background: #fcc;
   margin: 0;
-}
-
+} */
 nav {
   display: none;
   clear: both;
@@ -131,7 +139,18 @@ nav a {
     align-content: space-around;
     justify-content: center;
     flex: auto;
+    font-size: 1.4em;
   }
+
+  fieldset{
+    font-size: 1.4em;
+  }
+
+  .buttons{
+    font-size: 1.4em;
+  }
+
+
 }
 
 
@@ -144,5 +163,9 @@ nav a {
 
   body {
     background: #ccf;
+  }
+
+  form{
+    width: 70%
   }
 }
