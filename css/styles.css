@@ -67,6 +67,7 @@ nav {
   justify-content: center;
   background: #333;
   flex-direction: column;
+  font: verdana;
 }
 nav a {
   padding: 1.25em 1.5em;
@@ -74,7 +75,7 @@ nav a {
   background: #333;
   text-decoration: none;
   transition: all 1.5s;
-  font: verdana;
+  font-family: verdana;
 }
 
 
@@ -88,10 +89,13 @@ nav a {
   align-items: center;
 }
 .menu {
+  display: flex;
   background: #333;
-  text-align: center;
+  text-align: left;
   color: #fff;
   line-height: 2em;
+  padding-left: 4px;
+  font-family: verdana;
 }
 .menu-toggle {
   display: flex;
