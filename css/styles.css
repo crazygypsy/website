@@ -176,15 +176,15 @@ nav a {
   form{
     width: 70%
   }
-  .eventDate{
+  .eventDates{
     display: none;
   }
-  input[type="date"] {
+  /* input[type="date"] {
   font-family: inherit;
   font-size: 1em;
   color: inherit;
   display: none;
-}
+} */
   iframe{
     display: flex;
   }
