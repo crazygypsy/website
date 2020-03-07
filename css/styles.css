@@ -8,6 +8,9 @@ body {
   background: #fcc;
   margin: 0;
  }
+ iframe{
+   display: none;
+ }
 
 h1{
   padding: 40px;
@@ -20,22 +23,19 @@ h1{
    border-style:hidden;
    align-items: center;
    justify-content: center;
-   max-width: 60%
-
-
-
+   max-width: 60%;
  }
 
 
-
- .names{
+.names{
    display: flex;
    flex-direction:column;
    /* align-content: space-around;
    justify-content: center;
    flex: auto; */
  }
- form{
+
+form{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -111,6 +111,7 @@ nav a {
 
 
 
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
@@ -146,9 +147,16 @@ nav a {
     font-size: 1.4em;
   }
 
+
   .buttons{
     font-size: 1.4em;
   }
+
+  input[type="date"] {
+  font-family: inherit;
+  font-size: 1em;
+  color: inherit;
+}
 
 
 }
@@ -167,5 +175,17 @@ nav a {
 
   form{
     width: 70%
+  }
+  .eventDate{
+    display: none;
+  }
+  input[type="date"] {
+  font-family: inherit;
+  font-size: 1em;
+  color: inherit;
+  display: none;
+}
+  iframe{
+    display: flex;
   }
 }
