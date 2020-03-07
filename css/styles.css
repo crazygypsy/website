@@ -8,10 +8,13 @@ body {
   background: #fcc;
   margin: 0;
  }
- iframe{
+ /* iframe{
    display: none;
- }
+ } */
 
+ .googleCalender{
+   display:none;
+ }
 h1{
   padding: 40px;
   background: red;
@@ -109,6 +112,12 @@ nav a {
   display: flex;
 }
 
+.eventDates{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 
 
@@ -152,11 +161,11 @@ nav a {
     font-size: 1.4em;
   }
 
-  input[type="date"] {
+  /* input[type="date"] {
   font-family: inherit;
   font-size: 1em;
   color: inherit;
-}
+} */
 
 
 }
@@ -185,7 +194,12 @@ nav a {
   color: inherit;
   display: none;
 } */
-  iframe{
+  /* iframe{
     display: flex;
+  } */
+
+  .googleCalender{
+    display:flex;
+    justify-content: flex-end;
   }
 }
