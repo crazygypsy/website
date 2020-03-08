@@ -119,6 +119,12 @@ nav a {
   flex-direction: column;
 }
 
+.eventBanner{
+  display: flex;
+  justify-content: flex-start;
+  border-style: solid;
+}
+
 
 
 /* TABLET STYLES */
