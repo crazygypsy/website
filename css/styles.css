@@ -120,17 +120,68 @@ nav a {
 }
 
 .eventBanner{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline;
+  /* justify-content: center;
+  align-items: center; */
   border-style: solid;
   width: 75%;
+  position: relative;
+  background-color: black;
 }
 
 .comingUp{
   display: flex;
   justify-content: center;
 }
+
+.bannerImg{
+  /* display: flex; */
+  width: 100%;
+  height: auto;
+  /* float: left; */
+  /* justify-content: center;
+  align-content: center; */
+
+}
+
+.eventBanner, .bannerImg{
+  width:100%;
+  margin: 0;
+}
+.eventBanner{
+  width: 75%;
+}
+
+/* .bannerImg{
+  display: inline-flex;
+} */
+
+/* wweLogo{
+    ali
+} */
+span.description{
+  display: none;
+  text-decoration: none;
+}
+
+span.title{
+  background-color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+span.event-desc{
+  display: block;
+  background-color: red;
+  position: relative;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
 
 /* .mainEventPage{
   justify-content: ;
@@ -178,6 +229,24 @@ nav a {
     font-size: 1.4em;
   }
 
+  .eventBanner{
+    width: 75%;
+  }
+  span.description{
+    display: block;
+  }
+
+  .eventBanner, .bannerImg{
+    margin-top: 30px;
+  }
+
+  span.event-Desc{
+    width: 60%;
+
+  }
+
+
+
   /* input[type="date"] {
   font-family: inherit;
   font-size: 1em;
@@ -222,7 +291,7 @@ nav a {
     margin-right: 5%;
   }
   .eventBanner{
-    display: flex;
+    /* display: flex; */
     float: left;
     align-items: center;
     border-style: solid;
@@ -230,9 +299,10 @@ nav a {
     margin-left: 5%;
   }
 
-  .comingUp{
+  /* .comingUp{
     display: flex;
     justify-content: flex-start;
-  }
-  .
+  } */
+
+
 }
