@@ -134,23 +134,38 @@ nav a {
   justify-content: center;
 }
 
-.bannerImg{
-  /* display: flex; */
-  display: inline;
+/* img.bannerImg{
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: auto;
-  /* float: left; */
-  /* justify-content: center;
-  align-content: center; */
+  float: left;
+  justify-content: center;
+  align-content: center;
 
+} */
+
+img{
+  display: block;
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 0; */
 }
 
-.eventBanner, .bannerImg{
+
+
+
+/* .eventBanner, .bannerImg{
   width:100%;
   margin: 0;
-}
+} */
 .eventBanner{
   width: 75%;
+  height: auto;
   text-decoration: none;
   color: white;
 }
@@ -262,6 +277,15 @@ a{
     position: absolute;
   }
 
+  img{
+    display: inline;
+    width: 20%;
+    height: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin-left: 0; */
+  }
+
 
 
   /* input[type="date"] {
@@ -314,6 +338,12 @@ a{
     border-style: solid;
     width: 80%;
     margin-left: 5%;
+  }
+
+  img{
+    width: 20%;
+    height: auto;
+    /* margin-left: 0; */
   }
 
   /* .comingUp{
