@@ -351,10 +351,12 @@ a{
   .eventBanner, .eventBannerRight{
     /* display: flex; */
     float: left;
+    position: relative;
     align-items: center;
     border-style: solid;
     width: 80%;
     margin-left: 5%;
+    padding: 5%;
   }
 
   img{
