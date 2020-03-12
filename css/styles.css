@@ -136,6 +136,7 @@ nav a {
 
 .bannerImg{
   /* display: flex; */
+  display: inline;
   width: 100%;
   height: auto;
   /* float: left; */
@@ -150,6 +151,8 @@ nav a {
 }
 .eventBanner{
   width: 75%;
+  text-decoration: none;
+  color: white;
 }
 
 /* .bannerImg{
@@ -162,10 +165,14 @@ nav a {
 span.description{
   display: none;
   text-decoration: none;
+
 }
 
 span.title{
-  background-color: white;
+  /* background-color: white; */
+  color: white;
+  font-family: arial;
+  font-weight: 800;
   display: block;
   text-align: center;
   text-decoration: none;
@@ -196,7 +203,7 @@ a{
   /* applies to screens wider than 499px */
 
   body {
-    background: green;
+    background: #4d4a47;
   }
 
   .menu {
@@ -233,16 +240,26 @@ a{
     width: 75%;
   }
   span.description{
-    display: block;
+    display: inline;
+    /* text-align: right; */
+    color: white;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 0.9em;
+
   }
 
   .eventBanner, .bannerImg{
     margin-top: 30px;
   }
 
+  /* span.title{
+    width: 100%;
+  } */
   span.event-Desc{
-    width: 60%;
-
+    /* width: 100%; */
+    margin-top: 0;
+    position: absolute;
   }
 
 
