@@ -124,7 +124,11 @@ nav a {
   justify-content: center;
   align-items: center;
   border-style: solid;
+<<<<<<< HEAD
   width: 70%;
+=======
+  width: 75%;
+>>>>>>> 66e4e1013060dd5dd7ce35b1e2e39e271d159ee7
   height: auto;
   text-decoration: none;
   color: white;
@@ -175,18 +179,32 @@ img{
   color: white;
 } */
 
+<<<<<<< HEAD
 /* .eventBannerRight{
   display: inline; */
   /* justify-content: center;
   align-items: center; */
   /* border-style: solid;
+=======
+.eventBannerRight{
+  display: inline;
+  /* justify-content: center;
+  align-items: center; */
+  border-style: solid;
+>>>>>>> 66e4e1013060dd5dd7ce35b1e2e39e271d159ee7
   width: 75%;
   height: auto;
   text-decoration: none;
   color: white;
   position: relative;
+<<<<<<< HEAD
   background-color: black; */
 /* } */
+=======
+  background-color: black;
+
+}
+>>>>>>> 66e4e1013060dd5dd7ce35b1e2e39e271d159ee7
 
 /* .bannerImg{
   display: inline-flex;
@@ -350,7 +368,11 @@ a{
     margin-right: 5%;
   }
   .eventBanner, .eventBannerRight{
+<<<<<<< HEAD
     /* display: block; */
+=======
+    /* display: flex; */
+>>>>>>> 66e4e1013060dd5dd7ce35b1e2e39e271d159ee7
     float: left;
     position: relative;
     align-items: center;
