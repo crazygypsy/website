@@ -125,6 +125,9 @@ nav a {
   align-items: center; */
   border-style: solid;
   width: 75%;
+  height: auto;
+  text-decoration: none;
+  color: white;
   position: relative;
   background-color: black;
 }
@@ -163,11 +166,25 @@ img{
   width:100%;
   margin: 0;
 } */
-.eventBanner{
+/* .eventBanner{
   width: 75%;
   height: auto;
   text-decoration: none;
   color: white;
+} */
+
+.eventBannerRight{
+  display: inline;
+  /* justify-content: center;
+  align-items: center; */
+  border-style: solid;
+  width: 75%;
+  height: auto;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  background-color: black;
+
 }
 
 /* .bannerImg{
@@ -251,7 +268,7 @@ a{
     font-size: 1.4em;
   }
 
-  .eventBanner{
+  .eventBanner, .eventBannerRight{
     width: 75%;
   }
   span.description{
@@ -264,7 +281,7 @@ a{
 
   }
 
-  .eventBanner, .bannerImg{
+  .eventBanner, .eventBannerRight, .bannerImg{
     margin-top: 30px;
   }
 
@@ -331,7 +348,7 @@ a{
     float: right;
     margin-right: 5%;
   }
-  .eventBanner{
+  .eventBanner, .eventBannerRight{
     /* display: flex; */
     float: left;
     align-items: center;
