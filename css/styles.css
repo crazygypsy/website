@@ -119,12 +119,12 @@ nav a {
   flex-direction: column;
 }
 
-.eventBanner{
-  display: inline;
-  /* justify-content: center;
-  align-items: center; */
+.eventBanner, .eventBannerRight{
+  /* display: inline; */
+  justify-content: center;
+  align-items: center;
   border-style: solid;
-  width: 75%;
+  width: 70%;
   height: auto;
   text-decoration: none;
   color: white;
@@ -132,9 +132,11 @@ nav a {
   background-color: black;
 }
 
+
 .comingUp{
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  float:left; */
+  align-items: center;
 }
 
 /* img.bannerImg{
@@ -173,19 +175,18 @@ img{
   color: white;
 } */
 
-.eventBannerRight{
-  display: inline;
+/* .eventBannerRight{
+  display: inline; */
   /* justify-content: center;
   align-items: center; */
-  border-style: solid;
+  /* border-style: solid;
   width: 75%;
   height: auto;
   text-decoration: none;
   color: white;
   position: relative;
-  background-color: black;
-
-}
+  background-color: black; */
+/* } */
 
 /* .bannerImg{
   display: inline-flex;
@@ -206,7 +207,7 @@ span.title{
   font-family: arial;
   font-weight: 800;
   display: block;
-  text-align: center;
+  /* text-align: center; */
   text-decoration: none;
 }
 
@@ -343,18 +344,20 @@ a{
   } */
 
   .googleCalender{
-    display:flex;
+    display:inline;
     /* justify-content: flex-end; */
     float: right;
     margin-right: 5%;
   }
   .eventBanner, .eventBannerRight{
-    /* display: flex; */
+    /* display: block; */
     float: left;
+    position: relative;
     align-items: center;
     border-style: solid;
-    width: 80%;
+    width: 60%;
     margin-left: 5%;
+    padding: 5%;
   }
 
   img{
