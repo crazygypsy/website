@@ -124,11 +124,8 @@ nav a {
   justify-content: center;
   align-items: center;
   border-style: solid;
-<<<<<<< HEAD
-  width: 70%;
-=======
-  width: 75%;
->>>>>>> 66e4e1013060dd5dd7ce35b1e2e39e271d159ee7
+  width: 60%;
+
   height: auto;
   text-decoration: none;
   color: white;
@@ -367,19 +364,16 @@ a{
     float: right;
     margin-right: 5%;
   }
+
   .eventBanner, .eventBannerRight{
-<<<<<<< HEAD
-    /* display: block; */
-=======
-    /* display: flex; */
->>>>>>> 66e4e1013060dd5dd7ce35b1e2e39e271d159ee7
+
     float: left;
     position: relative;
     align-items: center;
     border-style: solid;
-    width: 60%;
+    width: 50%;
     margin-left: 5%;
-    padding: 5%;
+
   }
 
   img{
