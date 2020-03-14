@@ -175,6 +175,7 @@ span.buy{
   background-color: red;
   color: white;
   font-family: arial;
+  text-align: center;
 }
 
 span.title{
@@ -263,7 +264,7 @@ a{
     font-size: 0.9em;
   }
   span.buy{
-    display: block;
+    font-size: 1em;
   }
 
   .eventBanner, .eventBannerRight, .bannerImg{
